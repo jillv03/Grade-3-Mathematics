@@ -1,0 +1,161 @@
+body {
+    background-color: yellow;
+}
+
+header {
+    padding: 20px 50px;
+	background-color: Green;
+    text-align: right;
+}
+
+.a1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.b1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.c1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.title1 {
+    font-size: 6ch;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.a1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.b1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.c1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.a {
+border: none;
+text-align: center;
+text-transform: uppercase;
+background-size: 200% auto;
+color: white; 
+font-size: 3ch;
+padding: 15px 32px;
+background-color: green;
+border-radius: 10px;
+display: block;
+text-decoration: none;
+margin: auto;
+margin-bottom: 15px;
+}
+
+.b {
+border: none;
+text-align: center;
+text-transform: uppercase;
+background-size: 200% auto;
+color: white; 
+font-size: 3ch;
+padding: 15px 32px;
+background-color: green;
+border-radius: 10px;
+display: block;
+text-decoration: none;
+margin: auto;
+margin-bottom: 15px;
+
+}
+
+.c {
+border: none;
+text-align: center;
+text-transform: uppercase;
+background-size: 200% auto;
+color: white; 
+font-size: 3ch;
+padding: 15px 32px;
+background-color: green;
+border-radius: 10px;
+display: block;
+text-decoration: none;
+margin: auto;
+margin-bottom: 15px;
+    
+}
+
+.d {
+border: none;
+text-align: center;
+text-transform: uppercase;
+background-size: 200% auto;
+color: white; 
+font-size: 3ch;
+padding: 15px 32px;
+background-color: green;
+border-radius: 10px;
+display: block;
+text-decoration: none;
+margin: auto;
+margin-bottom: 15px;
+        
+}
+
+.a:hover {
+    background-color: white;
+    color: green;
+    transition: 0.3s;
+}
+
+.b:hover {
+    background-color: white;
+    color: green;
+    transition: 0.3s;
+}
+
+.c:hover {
+    background-color: white;
+    color: green;
+    transition: 0.3s;
+}
+
+.d:hover {
+    background-color: white;
+    color: green;
+    transition: 0.3s;
+}
+
+    
+
+

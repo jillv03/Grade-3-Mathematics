@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="quizstyle.css"><nav> 
+    <title>Math Quiz</title>
+</head>
+	<body>
+    <form class='quiz' id="quiz1" hidden="hide" style="display: flex;">
+        <span class='result'>Solve It</span>
+        <h1>
+            <span class='quest'>10+10</span>
+            <span> = ?</span>
+        </h1>
+        <input type='number' class='ans' placeholder='0' required>
+        <input type='submit' class='submit'>
+        <button type='button' class='next'>Play next</button>
+        <button type='button' class='score' disabled>Score</button>
+        <span class='reset'>Reset score</span>
+        <a href="Index.html" class='back'>Back to menu</a>
+        <button onclick="myFunction()" class="scorebtn">Set Score</button>
+    </form>
+            <form class="contain" id="contain" style="display: none; color: white;" method="post" action="Post.asp">
+                <h1 class="scrtitle"> Enter your name and final score below to save your score!</h1>
+                    Name and score:<input type="text" class="username" id="username">
+                <button type="submit" class="enter" name="submit" value="submit">Enter</button> 
+                <a href="Index.html" class="back2">Back to Menu</a>
+            </form>
+            <form class="contain2" id="contain2" style="display: none;">
+                <h1 class="scrtitle"> Scoreboard</h1>
+                <ul id="scores" style="color: white; list-style: none;;">
+                    <li style="text-align: center;">
+                        <span> Jill 25</span>
+                    </li>
+                </ul>
+            </form>
+		<script src="math.js"></script>
+        <script>
+                function myFunction() {
+                    var x = document.getElementById("contain");
+                    var y = document.getElementById("quiz1");
+                    var z = document.getElementById("contain2");
+                    if (y.style.display === "flex") {
+                        x.style.display = "flex";
+                        z.style.display = "flex"
+                        y.style.display = "none";
+                    }                   
+                }
+        </script>
+        <script>
+            const name = document.querySelector('#username');
+            const ul = document.querySelector('#scores');
+            const form = document.querySelector('#contain')
+            
+
+            function createLi() {
+                const li = document.createElement('li');
+                const span = document.createElement('span')
+                span.textContent = name.value;
+
+                li.appendChild(span);
+
+                return li;
+            }
+
+            form.addEventListener('submit', (event) => {
+                event.preventDefault();
+
+                const li = createLi();
+                if (name.value === '') {
+                    alert('Please enter name and score');
+                }
+                else {
+                ul.appendChild(li);
+                name.value = '';
+                }
+            });
+
+
+        </script>
+	</body>
+
+</html>

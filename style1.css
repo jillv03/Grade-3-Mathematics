@@ -1,0 +1,57 @@
+body {
+    background-color: yellow;
+}
+
+
+
+
+.head1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.selection {
+    border: none;
+    flex: 1 1 auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white; 
+    margin-left: 570px;
+    margin-top: 130px;
+    font-size: 3ch;
+    padding: 15px 32px;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.selection:hover {
+    color: green;
+    background-color: white;
+}
+
+.exercise {
+    border: none;
+    flex: 1 1 auto;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: white; 
+    margin-left: 560px;
+    margin-top: 30px;
+    font-size: 3ch;
+    padding: 15px 32px;
+    background-color: green;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.exercise:hover {
+    color: green;
+    background-color: white;
+}

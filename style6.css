@@ -1,0 +1,153 @@
+body {
+    background-color: yellow;
+}
+
+header {
+    padding: 20px 50px;
+	background-color: Green;
+    text-align: right;
+}
+
+.a1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    
+}
+
+.b1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.c1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.d1 {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: red;
+    border: solid 2px red;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.a1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.b1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.c1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.c1:hover {
+    color: red;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.divtitle {
+    font-size: 6ch;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.divgif {
+    margin-left: 370px;
+}
+
+.divtitle2 {
+    text-align: center;
+    font-size: 5ch;
+}
+
+.p1 {
+    font-size: 6ch;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.div2 {
+    margin-left: 420px;
+}
+
+.p2 {
+    font-size: 6ch;
+    text-align: center;
+    text-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.up {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+  
+ .up:hover {
+    background-color: #555;
+}
+
+.p3 {
+    text-align: left;
+    font-size: 5ch;
+    text-wrap: none;
+}
+
+.p4 {
+    text-align: left;
+    font-size: 5ch;
+    text-wrap: none;
+}
+
+.p5 {
+    text-align: left;
+    font-size: 5ch;
+    text-wrap: none;
+}
+
+.p6 {
+    text-align: left;
+    font-size: 5ch;
+    text-wrap: none;
+}
